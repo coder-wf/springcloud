@@ -9,6 +9,8 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eureka-server</module>
+      <module>product-data-service(8001)</module>
+        <module>product-data-service(8002)</module>
     </modules>
     <packaging>pom</packaging>
 
