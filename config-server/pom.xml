@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>product-data-service(8002)</artifactId>
+    <artifactId>config-server</artifactId>
 
     <dependencies>
         <dependency>
@@ -22,7 +22,9 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+
     </dependencies>
+
 </project>
